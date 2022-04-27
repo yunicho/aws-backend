@@ -1,4 +1,5 @@
 async-generator==1.10
+async-timeout==4.0.2
 attrs==21.4.0
 boto3==1.21.46
 botocore==1.24.46
@@ -6,6 +7,7 @@ certifi==2021.10.8
 cffi==1.15.0
 click==8.1.2
 cryptography==36.0.1
+Deprecated==1.2.13
 Flask==2.1.1
 Flask-Cors==3.0.10
 Flask-MySQL==1.5.2
@@ -18,10 +20,13 @@ Jinja2==3.1.1
 jmespath==1.0.0
 MarkupSafe==2.1.1
 outcome==1.1.0
+packaging==21.3
 pycparser==2.21
 PyMySQL==1.0.2
 pyOpenSSL==21.0.0
+pyparsing==3.0.8
 python-dateutil==2.8.2
+redis==4.2.2
 s3transfer==0.5.2
 selenium==4.1.0
 six==1.16.0
@@ -31,5 +36,6 @@ trio==0.19.0
 trio-websocket==0.9.2
 urllib3==1.26.8
 Werkzeug==2.1.1
+wrapt==1.14.0
 wsproto==1.0.0
 zipp==3.8.0
