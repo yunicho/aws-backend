@@ -66,7 +66,7 @@ def files():
 
 @application.route('/file/count', methods=['GET'])
 def file_count():
-    return jsonify({'result': 'success', 'count':db.get("fileCount")})
+    return jsonify({'result': 'success', 'count': db.get("fileCount")})
 
 if __name__ == '__main__':
     application.debug = True
