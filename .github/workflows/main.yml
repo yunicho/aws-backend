@@ -1,4 +1,4 @@
-name: my-homework-backend
+name: backend
 on:
   push:
     branches:
